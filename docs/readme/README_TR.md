@@ -13,7 +13,9 @@
     <a href="https://voicestudio.sh/?utm_source=github&utm_medium=readme&utm_campaign=project">Web sitesi</a> ·
     <a href="https://github.com/debpalash/VoiceStudio/releases/latest">İndir</a> ·
     <a href="#get-started">Başlarken</a> ·
-    <a href="#documentation">Belgeler</a>
+    <a href="#documentation">Belgeler</a> ·
+    <a href="https://voicestudio.sh/pro?utm_source=github&amp;utm_medium=readme&amp;utm_campaign=project">VoiceStudio Pro</a> ·
+    <a href="https://app.voicestudio.sh/?utm_source=github&amp;utm_medium=readme&amp;utm_campaign=project">VoiceStudio Cloud</a>
   </p>
   <!-- README_LANGUAGES_START -->
   <a id="readme-languages"></a>
@@ -104,7 +106,7 @@ Motorlarınızı seçin ve yalnızca ihtiyacınız olan modelleri indirin.
 
 **VoiceStudio** (varsayılan, k2-fsa/ OmniVoice tarafından desteklenmektedir) ile başlayın veya Model Yöneticisindeki düzinelerce diğer motor arasından seçim yapın. [Özellikler ve motor kataloğuna](../../docs/feature-catalog.md) bakın.
 
-<p align="center"><a href="https://discord.gg/bzQavDfVV9"><img src="https://img.shields.io/badge/Join%20our%20Discord-5865F2?style=for-the-badge&amp;logo=discord&amp;logoColor=white" alt="Join Discord" height="40" /></a></p>
+<p align="center"><a href="https://discord.gg/bzQavDfVV9"><img src="../../docs/assets/discord-community.svg" alt="Come say hello! Join us on Discord" height="64" /></a></p>
 
 <a id="platforms"></a>
 
@@ -530,6 +532,11 @@ Kod, rapor, çeviri ve fikir gönderen herkese teşekkür ederiz. [Katkıda bulu
 
 ## Topluluk eğitimleri
 
-- [VoiceStudio Nafay 3D (YouTube) tarafından izlenecek yol](https://www.youtube.com/watch?v=I-u-A-oisIU)
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=I-u-A-oisIU&amp;utm_source=github&amp;utm_medium=readme&amp;utm_campaign=community_tutorials"><img src="https://i.ytimg.com/vi/I-u-A-oisIU/hqdefault.jpg" alt="VoiceStudio tutorial by Nafay 3D on YouTube" width="30%" /></a>
+  <a href="https://www.youtube.com/watch?v=hsLRbXLBP4U&amp;utm_source=github&amp;utm_medium=readme&amp;utm_campaign=community_tutorials"><img src="https://i.ytimg.com/vi/hsLRbXLBP4U/hqdefault.jpg" alt="VoiceStudio tutorial by Samuel Gregory on YouTube" width="30%" /></a>
+  <a href="https://www.youtube.com/watch?v=2KemGhEI0Ck&amp;utm_source=github&amp;utm_medium=readme&amp;utm_campaign=community_tutorials"><img src="https://i.ytimg.com/vi/2KemGhEI0Ck/hqdefault.jpg" alt="VoiceStudio tutorial by kilObit on YouTube" width="30%" /></a><br />
+  <sub>Nafay 3D · Samuel Gregory · kilObit</sub>
+</p>
 
-<p align="center"><a href="https://discord.gg/bzQavDfVV9"><img src="https://img.shields.io/badge/Join%20our%20Discord-5865F2?style=for-the-badge&amp;logo=discord&amp;logoColor=white" alt="Join Discord" height="40" /></a></p>
+<p align="center"><a href="https://discord.gg/bzQavDfVV9"><img src="../../docs/assets/discord-community.svg" alt="Come say hello! Join us on Discord" height="64" /></a></p>

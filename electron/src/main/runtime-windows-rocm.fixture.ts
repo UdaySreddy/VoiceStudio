@@ -44,12 +44,21 @@ beforeEach(() => {
 });
 afterEach(async () => {
   // Supervisors must finish queued setup-log writes before their directories disappear.
-  for (const cleanup of cleanups.splice(0).reverse()) await cleanup();
+  // A failed shutdown is still reported, after the rest of the teardown has run.
+  const failures: unknown[] = [];
+  for (const cleanup of cleanups.splice(0).reverse()) {
+    try {
+      await cleanup();
+    } catch (error) {
+      failures.push(error);
+    }
+  }
   vi.restoreAllMocks();
   vi.unstubAllGlobals();
   vi.unstubAllEnvs();
   vi.clearAllMocks();
   await Promise.all(roots.splice(0).map((root) => rm(root, { recursive: true, force: true })));
+  if (failures.length) throw new AggregateError(failures, 'Fixture cleanup failed');
 });
 export async function fixture() {
   const root = await mkdtemp(join(tmpdir(), 'vs-win-rocm-'));
